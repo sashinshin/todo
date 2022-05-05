@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+      "lib": [
+          "es5",
+          "es6"
+      ],
+      "target": "es6",
+      "module": "commonjs",
+      "rootDir": "src",
+      "outDir": "target",
+      "declaration": true,
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": true,
+      "typeRoots": [
+          "./node_modules/@types"
+      ]
+  },
+  "include": [
+      "src/**/*"
+  ],
+  "exclude": [
+      "node_modules"
+  ],
+  "files": [
+      ".ambient.d.ts"
+  ]
+}
